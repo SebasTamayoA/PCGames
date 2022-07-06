@@ -1,0 +1,47 @@
+.img-header {
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: #EEEEEE 0px 0px 5px;
+}
+
+body{
+    background-color: #222831;
+}  
+
+.container {
+color: #EEEEEE;
+}
+
+.h1, h2 ,h3 ,h4 ,h5 ,h6 {
+color: #00ADB5;
+}
+
+footer{
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.footer-page-4, .footer-page-3{
+    height: 100px;
+}
+
+
+.footercontainer{
+    background-color: #f0eeee;
+}
+
+
+.navbar{
+    background-color: #393E46;
+}
+
+
+.page-title {
+    text-align: center;
+}
+
+.img-thumbnail {
+    box-shadow: rgb(255, 254, 254) 0 0 5px;
+    border-radius: 20px;
+    border-color: aqua;
+}
