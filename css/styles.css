@@ -4,7 +4,11 @@
     box-shadow: #EEEEEE 0px 0px 5px;
 }
 
-body{
+.navbar{
+    background-color: #393E46;
+}
+
+body {
     background-color: #222831;
 }  
 
@@ -16,7 +20,7 @@ color: #EEEEEE;
 color: #00ADB5;
 }
 
-footer{
+footer {
     background-color: #393E46;
     color: #EEEEEE;
 }
@@ -31,11 +35,6 @@ footer{
 }
 
 
-.navbar{
-    background-color: #393E46;
-}
-
-
 .page-title {
     text-align: center;
 }
@@ -44,4 +43,26 @@ footer{
     box-shadow: rgb(255, 254, 254) 0 0 5px;
     border-radius: 20px;
     border-color: aqua;
+}
+
+.abs-center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0;
+    overflow: hidden;
+}
+
+.ctn-video iframe, .ctn-video object, .ctn-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
